@@ -8,7 +8,7 @@ Takım X
 
 - John Doe: Product Owner
 - Jane Doe: Scrum Master
-- Atıl Samancıoğlu: Team Member/Developer
+- Atıl Samancıoğlu: Team Member/Developer--
 
 ## Ürün İsmi
 
