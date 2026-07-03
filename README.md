@@ -1,13 +1,13 @@
 # **Takım İsmi**
 
-Takım X
+Takım 65
 
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
 
-- John Doe: Product Owner
-- Jane Doe: Scrum Master
+- Şeyma Coştur: Product Owner
+- Ayşegül Kılıç: Scrum Master
 - Atıl Samancıoğlu: Team Member/Developer--
 
 ## Ürün İsmi
