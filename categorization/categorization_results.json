@@ -1,0 +1,96 @@
+{
+  "accuracy": 99.66,
+  "report": {
+    "Bills & Utilities": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 177.0
+    },
+    "Electronics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 174.0
+    },
+    "Entertainment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 189.0
+    },
+    "Food & Dining": {
+      "precision": 1.0,
+      "recall": 0.989247311827957,
+      "f1-score": 0.9945945945945946,
+      "support": 186.0
+    },
+    "Groceries": {
+      "precision": 1.0,
+      "recall": 0.9940828402366864,
+      "f1-score": 0.9970326409495549,
+      "support": 169.0
+    },
+    "Healthcare": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 167.0
+    },
+    "Housing": {
+      "precision": 1.0,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.9285714285714286,
+      "support": 15.0
+    },
+    "Income": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "Personal Care": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "Shopping": {
+      "precision": 1.0,
+      "recall": 0.9969418960244648,
+      "f1-score": 0.998468606431853,
+      "support": 327.0
+    },
+    "Transfers & Payments": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 28.0
+    },
+    "Transport": {
+      "precision": 0.9649122807017544,
+      "recall": 1.0,
+      "f1-score": 0.9821428571428571,
+      "support": 165.0
+    },
+    "Travel": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 155.0
+    },
+    "accuracy": 0.996594778660613,
+    "macro avg": {
+      "precision": 0.9973009446693658,
+      "recall": 0.9882260549812134,
+      "f1-score": 0.9923700098223299,
+      "support": 1762.0
+    },
+    "weighted avg": {
+      "precision": 0.9967142601111179,
+      "recall": 0.996594778660613,
+      "f1-score": 0.9965802997022861,
+      "support": 1762.0
+    }
+  }
+}
