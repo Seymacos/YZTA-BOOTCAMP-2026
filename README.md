@@ -6,32 +6,36 @@ Takım 65
 
 ## Takım Elemanları
 
-- Şeyma Coştur: Product Owner
-- Ayşegül Kılıç: Scrum Master
-- Atıl Samancıoğlu: Team Member/Developer--
+- Şeyma Coştur: Product Owner, Developer
+- Ayşegül Kılıç: Scrum Master, Developer
+- Yağmur Dedekoç : Developer
+- Fırat Karataşoğlu : Developer
 
 ## Ürün İsmi
 
---Movie App--
+SmartFinance — Kişisel Finans & Yatırım Asistanı
 
 ## Ürün Açıklaması
 
-- Movie App uygulamamız ile insanların izlemek istediği filmlere ve dizilere daha kolay karar vermesini sağlayacağız. İçerisinde binlerce filmi barındıran uygulamamız aynı zamanda Netflix, Prime vb. platformlarda yayınlanıp yayınlanmadığını ve IMDB puanlarını da gösterecek.
+- SmartFinance, kullanıcıların harcamalarını takip etmesini, kategorilere ayırmasını ve kişisel bütçe önerileri almasını sağlayan yapay zeka destekli bir finansal asistan uygulamasıdır. Kullanıcı harcamalarını manuel olarak girebilir veya banka ekstresini yükleyebilir. Sistem makine öğrenmesi ile harcamaları otomatik kategorilere ayırır, anomali tespit eder ve canlı döviz, altın, hisse verilerini takip ederek kişisel öneriler üretir.
+
 
 ## Ürün Özellikleri
 
-- Filmleri türüne göre ayırma
-- Filmlerin yönetmen, aktör, aktris vb. bilgilerini posteriyle birlikte gösterme
-- IMDB ve Rotten Tomatoes puanlarını gösterme
-- Netflix'te ve Prime'da bulunurluğunu gösterme
+- Harcamaları otomatik kategorilere ayırma (TF-IDF + Random Forest)
+- Türkçe ve İngilizce mağaza isimlerini tanıma
+- Anomali tespiti (normalden sapan harcamaları bildirme)
+- Canlı döviz, altın ve hisse takibi (yfinance)
+- LLM agent ile kişisel bütçe ve yatırım önerileri
+- Banka ekstresi PDF okuma
+
 
 ## Hedef Kitle
 
-- Netflix kullanıcıları
-- Prime kullanıcıları
-- Sinema severler
-- Dizi severler
-- 15 - 65 yaş arası kullanıcılar
+- Kişisel bütçesini takip etmek isteyen bireyler
+- Yatırım kararlarını veriye dayandırmak isteyenler
+- Aylık harcamalarını analiz etmek isteyen çalışanlar ve öğrenciler
+- 18-65 yaş arası kullanıcılar
 
 ## Product Backlog URL
 
