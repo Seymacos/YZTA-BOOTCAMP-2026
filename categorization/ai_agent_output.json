@@ -1,0 +1,24 @@
+{
+  "analiz_ozeti": "Yapay zeka analizimiz, harcama verilerinizdeki USD ve INR (Hindistan Rupisi) kaynaklarını başarılı bir şekilde ayrıştırmıştır. USD bazında en çok harcama 'Housing' (43,847.37 $), INR bazında ise 'Electronics' (61,863,867.55 ₹) kategorisinde gerçekleşmiştir.",
+  "kur_uyarisi": "⚠️ Şeyma'nın veri setinde belirttiği para birimi uyarısı dikkate alınmış; 1 USD ≈ 86 INR kur farkı nedeniyle rakamlar doğrudan toplanmamış, para birimi bazlı analitik ayrıştırma uygulanmıştır.",
+  "oneriler": [
+    {
+      "kategori": "Housing (Amerikan Doları Harcamaları)",
+      "harcama_durumu": "Aylık toplam 43,847.37 USD harcama ile bütçenizin en büyük kısmını oluşturuyor.",
+      "yatirim_tavsiyesi": "Bu kategorideki harcamalarınızı %15 optimize ederek elde edeceğiniz dolar bazlı tasarrufu, canlı piyasada ons fiyatı 4187.3 USD olan Altın (GC=F) yatırımında değerlendirerek enflasyona karşı korunabilirsiniz.",
+      "aksiyon": "Altın (Gold) Yatırımı"
+    },
+    {
+      "kategori": "Electronics & Teknolojik Alışverişler (INR)",
+      "harcama_durumu": "Toplam 61,863,867.55 ₹ tutarında yüksek harcama hacmi tespit edildi.",
+      "yatirim_tavsiyesi": "Rupi bazlı büyük harcamalarınızı daha planlı hale getirip, Türk Lirası varlıklarınızda BIST 30 hisselerine yönelebilirsiniz. Güncel piyasada THYAO (334.0 TL) ve GARAN (133.5 TL) güçlü birer portföy çeşitlendirme seçeneğidir.",
+      "aksiyon": "Hisse Senedi Çeşitlendirmesi"
+    },
+    {
+      "kategori": "Canlı Döviz Kuru Stratejisi",
+      "harcama_durumu": "Güncel Dolar/TL Kuru: 46.75",
+      "yatirim_tavsiyesi": "Sabit harcamalarınız dışındaki serbest nakit akışınızı kur dalgalanmalarından korumak için likit para piyasası fonlarında veya kısa vadeli döviz mevduatında tutmanız önerilir.",
+      "aksiyon": "Nakit & Kur Yönetimi"
+    }
+  ]
+}
