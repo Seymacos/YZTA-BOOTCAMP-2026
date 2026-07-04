@@ -312,13 +312,4 @@ if advice:
 else:
     st.info("AI agent önerileri (ai_advice.json) data/ klasöründe bulunamadı.")
 
-with st.expander("Geliştirici notları (Sprint 2)"):
-    st.markdown(
-        "- **Dosya yükleme:** Kullanıcının kendi CSV/ekstresini yükleme akışı eklenecek (Kişi 1 parser).\n"
-        "- **Anomali:** Olağandışı harcama tespiti bağlanacak (Kişi 2).\n"
-        "- **Canlı agent:** Şu an ai_advice.json statik dosyadan okunuyor; "
-        "dashboard'a `from ai_agent import generate_financial_advice_json` ile "
-        "canlı çağrı entegre edilebilir (Kişi 4)."
-    )
-
 st.caption("SmartFinance • YZTA Bootcamp 2026")
