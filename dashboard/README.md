@@ -29,7 +29,7 @@ streamlit run app.py
 
 ## Bilinen not (Sprint 2'ye taşındı)
 - Özet tutarlar farklı para birimlerini (USD+INR) birlikte topluyor.
-  Para birimi bazında ayrıştırma Sprint 2'de yapılacak (Kişi 2 uyarısı).
+  Para birimi bazında ayrıştırma Sprint 2'de yapılacak.
 
 ## Kişi 4 için
 "Akıllı Öneriler" bölümündeki placeholder'ı agent çıktısıyla değiştir.
