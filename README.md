@@ -52,13 +52,21 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog1.png) 
-![Backlog 2](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog2.png) 
-![Backlog 3](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog3.png)
+![Backlog 1](<img width="616" height="335" alt="sprint1_board_baslangic" src="https://github.com/user-attachments/assets/8cb9e722-4df0-4dfd-a1d2-87802a086361" />
+
+![Backlog 2]<img width="456" height="369" alt="sprint1_board_inprogress" src="https://github.com/user-attachments/assets/bc442537-a580-4c88-bfe9-cfa30a734f7a" />
+
+![Backlog 3]<img width="423" height="441" alt="sprint1_board_complete" src="https://github.com/user-attachments/assets/2cd3885f-3fc4-4248-bb3c-f6f3396b499d" />
+
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss1.png?raw=true)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
+  ![Screenshot 1]<img width="326" height="414" alt="Sprint 1 Ürünss1 " src="https://github.com/user-attachments/assets/627b6c55-77bb-4a47-b62a-4f4d589f02e0" />
+
+  ![Screenshot 2]<img width="325" height="481" alt="Sprint 1 Ürünss2" src="https://github.com/user-attachments/assets/1692cbf1-13c4-498e-b2b5-20de389237e1" />
+  ![Screenshot 3]<img width="324" height="337" alt="Sprint 1 Ürünss3" src="https://github.com/user-attachments/assets/359c13be-de07-4fae-b88e-cf84931fed88" />
+
+  
+
 
 - **Sprint Review**: 
 Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
