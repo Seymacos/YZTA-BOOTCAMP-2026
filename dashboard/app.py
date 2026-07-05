@@ -277,7 +277,7 @@ with tab_piyasa:
 # ----------------------------------------------------------------------
 st.divider()
 st.markdown("### 💡 Akıllı Öneriler")
-st.caption("AI agent (Kişi 4) — harcamalarını ve canlı piyasayı birleştiren kişisel tavsiyeler")
+st.caption("AI agent — harcamalarını ve canlı piyasayı birleştiren kişisel tavsiyeler")
 
 advice = load_json("ai_advice.json")
 if advice:
