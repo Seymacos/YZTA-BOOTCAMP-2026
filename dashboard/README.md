@@ -1,4 +1,4 @@
-# SmartFinance — Dashboard (Kişi 3)
+# SmartFinance — Dashboard
 
 Kişisel Finans & Yatırım Asistanı'nın Streamlit arayüzü.
 Kişi 1 (veri), Kişi 2 (kategorilendirme + piyasa) ve Kişi 4 (AI agent) çıktıları entegre edilmiştir.
@@ -24,10 +24,10 @@ streamlit run app.py
 
 ## Veri dosyaları (data/)
 
-- transactions_sample.json / _merged.json → Kişi 1 (ham işlemler)
-- dashboard_data.json → Kişi 2 (kategori özeti + aylık trend)
-- market_data.json → Kişi 2 (canlı döviz/altın/hisse)
-- ai_advice.json → Kişi 4 (AI agent önerileri)
+- transactions_sample.json / _merged.json → (ham işlemler)
+- dashboard_data.json → (kategori özeti + aylık trend)
+- market_data.json → (canlı döviz/altın/hisse)
+- ai_advice.json → (AI agent önerileri)
 
 ## Dashboard bölümleri
 
