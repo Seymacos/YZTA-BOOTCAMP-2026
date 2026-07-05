@@ -39,7 +39,7 @@ SmartFinance — Kişisel Finans & Yatırım Asistanı
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVH_dU7Rw=/)
+[Miro Backlog Board](https://miro.com/app/live-embed/uXjVH_dU7Rw=/?embedMode=view_only_without_ui&moveToViewport=361%2C130%2C3092%2C1621&embedId=484245444113)
 
 ---
 
