@@ -69,13 +69,13 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - Ürün Canlı link ## 🚀 Canlı Demo
 [SmartFinance Dashboard](https://yzta-bootcamp-2026.onrender.com)
 - Ekran görüntüleri:
-<img width="326" height="414" alt="Sprint 1 Ürünss1 " src="https://github.com/user-attachments/assets/627b6c55-77bb-4a47-b62a-4f4d589f02e0" />
+<img width="315" height="396" alt="sprint1_ürünss1" src="https://github.com/user-attachments/assets/2f248ebb-794d-442e-a4a4-40505bca9121" />
 
-<img width="325" height="481" alt="Sprint 1 Ürünss2" src="https://github.com/user-attachments/assets/1692cbf1-13c4-498e-b2b5-20de389237e1" />
+<img width="930" height="447" alt="sprint1_ürünss4" src="https://github.com/user-attachments/assets/443f832d-5114-4816-b0ca-2fc188f27c20" />
 
-<img width="324" height="337" alt="Sprint 1 Ürünss3" src="https://github.com/user-attachments/assets/359c13be-de07-4fae-b88e-cf84931fed88" />
+<img width="936" height="440" alt="sprint1_ürünss5" src="https://github.com/user-attachments/assets/7e308035-7dc8-4ebe-ae18-1d2460d64fe4" />
 
-  
+<img width="389" height="413" alt="sprint1_ürünss3" src="https://github.com/user-attachments/assets/eceae37c-9226-4b40-806b-cc1fceddb0bd" />
 
 
 - **Sprint Review**: 
