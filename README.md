@@ -39,7 +39,7 @@ SmartFinance — Kişisel Finans & Yatırım Asistanı
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVOSSCpsI=/)
+[Miro Backlog Board](https://miro.com/app/board/uXjVH_dU7Rw=/)
 
 ---
 
@@ -53,11 +53,16 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 
 - **Sprint board update**: Sprint board screenshotları: 
-<img width="616" height="335" alt="sprint1_board_baslangic" src="https://github.com/user-attachments/assets/8cb9e722-4df0-4dfd-a1d2-87802a086361" />
 
-<img width="456" height="369" alt="sprint1_board_inprogress" src="https://github.com/user-attachments/assets/bc442537-a580-4c88-bfe9-cfa30a734f7a" />
+<img width="445" height="469" alt="sprint1_started" src="https://github.com/user-attachments/assets/859828be-85b2-4b34-9612-630d47df5015" />
 
-<img width="423" height="441" alt="sprint1_board_complete" src="https://github.com/user-attachments/assets/2cd3885f-3fc4-4248-bb3c-f6f3396b499d" />
+<img width="672" height="394" alt="sprint1_process1" src="https://github.com/user-attachments/assets/97d33678-f366-40cf-985e-e4425beafdee" />
+
+<img width="680" height="379" alt="sprint1_process2" src="https://github.com/user-attachments/assets/ec14dfc8-4a77-4b58-8ec4-ea1e9c8fc93b" />
+
+<img width="453" height="467" alt="sprint1_completed" src="https://github.com/user-attachments/assets/257f7fb6-ef3a-49c4-a449-536ecb6800c3" />
+
+
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
