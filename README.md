@@ -62,7 +62,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 <img width="453" height="467" alt="sprint1_completed" src="https://github.com/user-attachments/assets/257f7fb6-ef3a-49c4-a449-536ecb6800c3" />
 
-
+<img width="1635" height="930" alt="sprint1_burndown" src="https://github.com/user-attachments/assets/b7e072f9-de1f-4493-8834-9d87a1017337" />
 
 
 - **Ürün Durumu**:
