@@ -65,7 +65,10 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 
 
-- **Ürün Durumu**: Ekran görüntüleri:
+- **Ürün Durumu**:
+- Ürün Canlı link ## 🚀 Canlı Demo
+[SmartFinance Dashboard](https://yzta-bootcamp-2026.onrender.com)
+- Ekran görüntüleri:
 <img width="326" height="414" alt="Sprint 1 Ürünss1 " src="https://github.com/user-attachments/assets/627b6c55-77bb-4a47-b62a-4f4d589f02e0" />
 
 <img width="325" height="481" alt="Sprint 1 Ürünss2" src="https://github.com/user-attachments/assets/1692cbf1-13c4-498e-b2b5-20de389237e1" />
