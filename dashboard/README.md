@@ -1,7 +1,7 @@
 # SmartFinance — Dashboard
 
 Kişisel Finans & Yatırım Asistanı'nın Streamlit arayüzü.
-Kişi 1 (veri), Kişi 2 (kategorilendirme + piyasa) ve Kişi 4 (AI agent) çıktıları entegre edilmiştir.
+Veri, kategorilendirme - piyasa ve AI agent çıktıları entegre edilmiştir.
 
 ## 🚀 Canlı Demo
 
@@ -35,7 +35,7 @@ streamlit run app.py
 - Kategori dağılımı + aylık trend grafikleri (Plotly)
 - Kategori detay tablosu (yüzdelerle)
 - Aylık kategori kırılımı (açılır)
-- Akıllı Öneriler (AI agent — Kişi 4 entegre)
+- Akıllı Öneriler (AI agent )
 
 ## Bilinen not (Sprint 2'ye taşındı)
 
