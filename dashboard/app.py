@@ -268,7 +268,7 @@ with tab_piyasa:
         for i, (name, price) in enumerate(stocks.items()):
             s[i].metric(name, price)
 
-        st.info("Yatırımcı modu (portföy analizi, sektör uyarıları) Sprint 3'te eklenecek.")
+        st.info(" ")
     else:
         st.warning("Piyasa verisi bulunamadı.")
 
