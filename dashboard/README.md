@@ -25,7 +25,6 @@ streamlit run app.py
 - Kategori dağılımı + aylık trend grafikleri
 - Kategori detay tablosu (yüzdelerle)
 - Aylık kategori kırılımı (açılır)
-- Kişi 4 (AI agent) için hazır bağlantı noktası
 
 ## Bilinen not (Sprint 2'ye taşındı)
 - Özet tutarlar farklı para birimlerini (USD+INR) birlikte topluyor.
