@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-07-03 21:17:09",
+  "timestamp": "2026-07-17 21:08",
   "exchange_rates": {
-    "USD/TRY": 46.8,
-    "EUR/TRY": 53.55,
-    "GBP/TRY": 62.51
+    "USD/TRY": "47.10",
+    "INR/TRY": "0.4889",
+    "EUR/TRY": "49.50",
+    "GBP/TRY": "56.20"
   },
   "gold": {
-    "Gold (USD/oz)": 4187.3
+    "Gold (USD/oz)": "2,350.00"
   },
   "stocks": {
-    "THYAO": 334.0,
-    "GARAN": 133.5,
-    "AKBNK": 73.75
+    "THYAO": "310.50",
+    "EREGL": "52.20"
   }
 }
