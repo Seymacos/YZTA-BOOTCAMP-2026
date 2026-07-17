@@ -45,7 +45,8 @@ EXTENSION_FIELDS = [
     "transaction_id",     # str, kaynak+alanlardan üretilen kararlı (stable) hash
     "currency",           # "INR" | "USD" | ...  (kaynaklar farklı para birimi!)
     "category_original",  # str, kaynaktaki ham kategori (Kişi 2 yeniden gruplayabilsin)
-    "source",             # "india_csv" | "us_xlsx" | "pdf_<banka>"
+    "source",             # "india_csv" | "us_xlsx" | "upload_csv" | "pdf_<banka>"
+    "description_raw",    # str, OPSİYONEL — temizlik öncesi ham açıklama (Sprint 2)
 ]
 
 ALL_FIELDS = CORE_FIELDS + EXTENSION_FIELDS
@@ -149,7 +150,16 @@ JSON_SCHEMA = {
         "description": {
             "type": "string",
             "minLength": 1,
-            "description": "İşlem açıklaması / satıcı adı.",
+            "description": "İşlem açıklaması / satıcı adı (temizlenmiş).",
+        },
+        "description_raw": {
+            "type": "string",
+            "description": (
+                "OPSİYONEL. Temizlik öncesi ham açıklama; yalnızca temizlik metni "
+                "DEĞİŞTİRDİYSE eklenir. PDF ekstrelerde açıklama gürültülüdür "
+                "(kart maskesi, referans no); normalizasyon yanlış bir şeyi silerse "
+                "aslına buradan bakılır. Kişi 2'nin modeli `description` kullanmalı."
+            ),
         },
         "amount": {
             "type": "number",
@@ -186,7 +196,11 @@ JSON_SCHEMA = {
         },
         "source": {
             "type": "string",
-            "description": "Kaydın geldiği kaynak: india_csv | us_xlsx | pdf_<banka>.",
+            "description": (
+                "Kaydın geldiği kaynak. Sprint 1: india_csv | us_xlsx. "
+                "Sprint 2 (kullanıcı yüklemesi): upload_csv | upload_xlsx | "
+                "pdf_<banka> (ör. pdf_garanti, pdf_generic — bkz. bank_profiles.py)."
+            ),
         },
     },
 }

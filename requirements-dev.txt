@@ -1,0 +1,9 @@
+# Geliştirme / test bağımlılıkları — üretimde GEREKLİ DEĞİL.
+# Kurulum:  pip install -r requirements.txt -r requirements-dev.txt
+# Testler:  cd categorization && python -m pytest tests/ -q
+
+-r requirements.txt
+
+pytest>=7.4.0
+reportlab>=4.0.0   # testlerdeki sentetik banka ekstresi PDF'lerini üretir
+                   # (gerçek ekstre kişisel veridir, repoya konmaz)
