@@ -8,3 +8,10 @@ google-generativeai>=0.4.0
 # Ekstre işleme (Kişi 1 — Sprint 2)
 pdfplumber>=0.10.0   # PDF banka ekstresi okuma
 openpyxl>=3.1.0      # .xlsx yükleme (pandas.read_excel motoru)
+
+# AI Agent & Hafıza (Kişi 4 — Sprint 2)
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-google-genai>=1.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0

@@ -7,4 +7,5 @@ __pycache__/
 env/
 venv/
 .venv/
+.env
 .streamlit/secrets.toml
