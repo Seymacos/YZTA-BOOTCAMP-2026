@@ -101,26 +101,40 @@ Alınan kararlar:
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, yeşil item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: [DailyScrumMeetingSS_Sprint1.docx](https://github.com/user-attachments/files/29663753/DailyScrumMeetingSS_Sprint1.docx)
+- **Daily Scrum**: [DailyScrumMeetingSS_Sprint2.docx](https://github.com/user-attachments/files/30164187/DailyScrumMeetingSS_Sprint2.docx)
 
 
 - **Sprint board update**: Sprint board screenshotları:
-- - **Ürün Durumu**:
-- - **Sprint Review**: 
+- **Ürün Durumu**:
+- Ürün Canlı link ## 🚀 Canlı Demo https://yzta-bootcamp-2026.onrender.com
+<img width="960" height="507" alt="sprint2_ürünss3" src="https://github.com/user-attachments/assets/955c39e1-b423-416f-9521-bf08e172ce26" />
+<img width="957" height="477" alt="sprint2_ürünss2" src="https://github.com/user-attachments/assets/07267c85-3319-4462-8ddb-d3cd977a0b92" />
+<img width="960" height="503" alt="sprint2_ürünss1" src="https://github.com/user-attachments/assets/e7e278e2-2361-4aaf-9456-5b1f4e4af471" />
+<img width="960" height="488" alt="sprint2_ürünss4" src="https://github.com/user-attachments/assets/41f0e0c1-5403-476b-bd9c-ca8f247a4f29" />
+<img width="960" height="492" alt="sprint2_ürünss8" src="https://github.com/user-attachments/assets/32e4b2f7-911d-42da-9d9e-d4bd4cb9e63e" />
+<img width="957" height="329" alt="sprint2_ürünss7" src="https://github.com/user-attachments/assets/4037cfc6-ab82-4236-af1d-b418eafc38f8" />
+<img width="960" height="367" alt="sprint2_ürünss6" src="https://github.com/user-attachments/assets/8d557d1e-bcca-42ab-9d25-8416abb332a8" />
+<img width="959" height="486" alt="sprint2_ürünss5" src="https://github.com/user-attachments/assets/f7b64982-9695-4d34-9d44-d508a56e2e01" />
+<img width="960" height="448" alt="sprint2_ürünss9" src="https://github.com/user-attachments/assets/0075d8c1-4af5-4f15-babf-f5eff49696fe" />
+<img width="959" height="366" alt="sprint2_ürünss13" src="https://github.com/user-attachments/assets/126c12fd-fc70-4688-9a4e-3e8db7e944bd" />
+<img width="948" height="447" alt="sprint2_ürünss12" src="https://github.com/user-attachments/assets/a62c1a47-f60c-4de6-94fb-dd32c918e9df" />
+<img width="957" height="483" alt="sprint2_ürünss11" src="https://github.com/user-attachments/assets/bb232c83-bbf2-4f08-8d84-bb5f0f46a228" />
+<img width="950" height="472" alt="sprint2_ürünss10" src="https://github.com/user-attachments/assets/f9ac5c35-9ec5-4551-9c6d-8a4ed9cee735" />
+<img width="960" height="335" alt="sprint2_ürünss14" src="https://github.com/user-attachments/assets/6286a5bf-2e9b-49c5-9d40-b9e42d9055df" />
+- **Sprint Review**: 
 Alınan kararlar:
-Sprint Review
-Alınan kararlar: Anomali tespiti ve bütçe hesaplama mantığı geliştirilmiş, ancak bu çıktıların ortak veri dosyasına (dashboard_data.json) yazılmadığı tespit edilmiştir. Geçici çözüm olarak hesaplamalar arayüz katmanında da yapılmış, kalıcı çözümün bir sonraki sprintte tek noktada birleştirilmesine karar verilmiştir.
+Anomali tespiti ve bütçe hesaplama mantığı geliştirilmiş, ancak bu çıktıların ortak veri dosyasına (dashboard_data.json) yazılmadığı tespit edilmiştir. Geçici çözüm olarak hesaplamalar arayüz katmanında da yapılmış, kalıcı çözümün bir sonraki sprintte tek noktada birleştirilmesine karar verilmiştir.
 Veri kolon isimlerinde ekip içi tutarsızlık gözlenmiş (kontratta amount olarak belirlenen alanın farklı modüllerde farklı adlarla üretilmesi), arayüz tarafında esnek kolon eşleme ile çözülmüştür. Veri kontratının yeniden gözden geçirilmesi PBI olarak eklenmiştir.
 AI agent modülü canlı LLM bağlantısıyla (Gemini API) çalışır hale getirilmiş, API anahtarı bulunmadığında devreye giren yedek cevap mekanizması sayesinde demo güvenliği sağlanmıştır.
 Kullanıcı arayüzünde ekip içi referansların görünmesi sorunu tespit edilmiş, hem veri dosyası düzeltilmiş hem de arayüze kalıcı bir metin temizleme filtresi eklenmiştir.
 Yatırımcı modu özelliği ekip tarafından değerlendirilmiş, kapsam netleşmediği için Product Backlog'da bekletilmesine karar verilmiştir.
 Çıkan ürün canlı ortamda çalışır durumdadır; kullanıcı dosya yükleme, anomali tespiti, bütçe takibi ve doğal dil sorgu özellikleri test edilmiş, kritik bir problem görülmemiştir.
-- Sprint Review katılımcıları:  Yağmur Dedekoç, Şeyma Coştur , Ayşegül Kılıç, Fırat Karataşoğlu
+Sprint Review katılımcıları:  Yağmur Dedekoç, Şeyma Coştur , Ayşegül Kılıç, Fırat Karataşoğlu
 - **Sprint Retrospective:**
 - Mock veri ile paralel çalışma yaklaşımı bu sprintte de işe yaradı; modüller birbirini beklemeden geliştirildi
 - Sprint 2'de kıyasla işler sprint boyunca dengeli dağıldı
-Ekip üyeleri kendi modüllerini bitirdikten sonra entegrasyon için gereken bilgiyi (fonksiyon imzası, çıktı formatı) proaktif paylaştı
- Sonraki sprint için kararlar alındı
+- Ekip üyeleri kendi modüllerini bitirdikten sonra entegrasyon için gereken bilgiyi (fonksiyon imzası, çıktı formatı) proaktif paylaştı
+- Sonraki sprint için kararlar alındı
 - Veri kontratı yeniden gözden geçirilecek ve her modülün çıktısı teslim öncesi kontrata göre doğrulanacak
 - Hesaplama mantıkları tek bir katmanda toplanacak, arayüz yalnızca gösterimden sorumlu olacak
 - Deploy ve depo erişim yetkileri sprint başında netleştirilecek
