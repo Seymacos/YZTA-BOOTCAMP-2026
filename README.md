@@ -104,7 +104,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - **Daily Scrum**: [DailyScrumMeetingSS_Sprint2.docx](https://github.com/user-attachments/files/30164187/DailyScrumMeetingSS_Sprint2.docx)
 
 
-- **Sprint board update**: https://miro.com/app/board/uXjVH_dU7Rw=/?share_link_id=325036977024
+- **Sprint board update**: [https://miro.com/app/board/uXjVH_dU7Rw=/?share_link_id=325036977024](https://miro.com/app/board/uXjVH_dU7Rw=/?share_link_id=325036977024&focusWidget=3458764678320296311)
 - Sprint board screenshotları:
 <img width="410" height="493" alt="sprint2_Not-started" src="https://github.com/user-attachments/assets/8d419d5e-ba35-475b-a11a-0d6f80457d91" />
 <img width="419" height="423" alt="sprint2_In-progress1" src="https://github.com/user-attachments/assets/b7381c4f-cc5c-4920-ae1c-792f2e6d316b" />
