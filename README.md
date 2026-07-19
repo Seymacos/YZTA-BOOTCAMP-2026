@@ -112,7 +112,8 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 <img width="671" height="466" alt="sprint2_In-progress3" src="https://github.com/user-attachments/assets/a5e4f6a9-dd4a-4f72-abc7-d4f4d088fb60" />
 <img width="410" height="366" alt="sprint2_In-progress4" src="https://github.com/user-attachments/assets/5ecdc54f-e164-4b3c-9681-f7724838569c" />
 <img width="373" height="440" alt="Sprint2_Completed" src="https://github.com/user-attachments/assets/505833cc-fdc5-47e9-92db-92433127fa0e" />
-<img width="1628" height="930" alt="sprint2_burndown_final" src="https://github.com/user-attachments/assets/461bf3b1-41c2-4412-a658-fccbc6094491" />
+<img width="1631" height="930" alt="sprint2_burndown" src="https://github.com/user-attachments/assets/caf0f0e6-2673-4564-8933-b3c7ebd587d7" />
+
 
 - **Ürün Durumu**:
 - Ürün Canlı link ## 🚀 Canlı Demo https://yzta-bootcamp-2026.onrender.com
