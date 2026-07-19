@@ -17,6 +17,7 @@ Veri kaynakları:
 """
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -154,6 +155,29 @@ def fmt(n):
     if abs(n) >= 1_000:
         return f"{n/1_000:.0f}K"
     return f"{n:,.0f}"
+
+
+# Arayüzde görünmemesi gereken ekip içi referanslar
+_INTERNAL_REFS = [
+    "Şeyma", "Yağmur", "Ayşegül", "Fırat", "Enes",
+    "Kişi 1", "Kişi 2", "Kişi 3", "Kişi 4",
+]
+
+
+def sanitize(text) -> str:
+    """Agent/veri kaynaklı metinlerden ekip içi isim ve referansları temizler."""
+    if not isinstance(text, str):
+        return text
+    out = text
+    for ref in _INTERNAL_REFS:
+        # İsim + tüm olası Türkçe ekleri (Şeyma'nın, Yağmur'un, Kişi 2 tarafından ...)
+        out = re.sub(rf"{re.escape(ref)}['’]?\w*\s*(tarafından\s*)?", "", out)
+    # Fazla boşlukları topla, baştaki noktalama artıklarını temizle
+    out = " ".join(out.split())
+    out = re.sub(r"^[,;:\-\s]+", "", out)
+    return out.strip()
+
+
 
 
 # ----------------------------------------------------------------------
@@ -362,10 +386,10 @@ with tab_ozet:
         st.markdown("##### Akıllı Öneriler")
         st.caption("AI agent — harcamalarını ve piyasayı birleştiren kişisel tavsiyeler")
         if advice.get("analiz_ozeti"):
-            st.markdown(f'<div class="insight-card">{advice["analiz_ozeti"]}</div>',
+            st.markdown(f'<div class="insight-card">{sanitize(advice["analiz_ozeti"])}</div>',
                         unsafe_allow_html=True)
         if advice.get("kur_uyarisi"):
-            st.markdown(f'<div class="insight-card insight-warn">{advice["kur_uyarisi"]}</div>',
+            st.markdown(f'<div class="insight-card insight-warn">{sanitize(advice["kur_uyarisi"])}</div>',
                         unsafe_allow_html=True)
         oneriler = advice.get("oneriler", [])
         if oneriler:
@@ -374,10 +398,10 @@ with tab_ozet:
                 with col:
                     st.markdown(
                         f'<div class="advice-card">'
-                        f'<div class="advice-action">{o.get("aksiyon","")}</div>'
-                        f'<div class="advice-cat">{o.get("kategori","")}</div>'
-                        f'<div class="advice-status">{o.get("harcama_durumu","")}</div>'
-                        f'<div class="advice-tip">{o.get("yatirim_tavsiyesi","")}</div>'
+                        f'<div class="advice-action">{sanitize(o.get("aksiyon",""))}</div>'
+                        f'<div class="advice-cat">{sanitize(o.get("kategori",""))}</div>'
+                        f'<div class="advice-status">{sanitize(o.get("harcama_durumu",""))}</div>'
+                        f'<div class="advice-tip">{sanitize(o.get("yatirim_tavsiyesi",""))}</div>'
                         f'</div>', unsafe_allow_html=True)
         st.caption("Bu içerik bilgilendirme amaçlıdır, yatırım tavsiyesi değildir.")
 
@@ -564,9 +588,9 @@ with tab_sorgu:
             f'<span style="background:{rozet};color:white;font-size:0.72rem;font-weight:700;'
             f'padding:0.2rem 0.6rem;border-radius:12px">{cevap.get("kategori","")}</span>'
             f'<div class="answer-label" style="margin-top:0.8rem">Tespit</div>'
-            f'<div class="answer-text">{cevap.get("tespit","")}</div>'
+            f'<div class="answer-text">{sanitize(cevap.get("tespit",""))}</div>'
             f'<div class="answer-label" style="margin-top:0.8rem">Öneri</div>'
-            f'<div class="answer-text">{cevap.get("oneri","")}</div>'
+            f'<div class="answer-text">{sanitize(cevap.get("oneri",""))}</div>'
             f'</div>', unsafe_allow_html=True)
         st.caption("Bu içerik bilgilendirme amaçlıdır, yatırım tavsiyesi değildir.")
 
