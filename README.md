@@ -107,9 +107,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - **Sprint board update**: https://miro.com/app/board/uXjVH_dU7Rw=/?share_link_id=325036977024
 - Sprint board screenshotları:
 <img width="410" height="493" alt="sprint2_Not-started" src="https://github.com/user-attachments/assets/8d419d5e-ba35-475b-a11a-0d6f80457d91" />
-<img width="671" height="466" alt="sprint2_In-progress3" src="https://github.com/user-attachments/assets/a5e4f6a9-dd4a-4f72-abc7-d4f4d088fb60" />
-<img width="685" height="403" alt="sprint2_In-progress2" src="https://github.com/user-attachments/assets/f963ab81-3356-4d1d-a534-5b6515dc6a7e" />
 <img width="419" height="423" alt="sprint2_In-progress1" src="https://github.com/user-attachments/assets/b7381c4f-cc5c-4920-ae1c-792f2e6d316b" />
+<img width="685" height="403" alt="sprint2_In-progress2" src="https://github.com/user-attachments/assets/f963ab81-3356-4d1d-a534-5b6515dc6a7e" />
+<img width="671" height="466" alt="sprint2_In-progress3" src="https://github.com/user-attachments/assets/a5e4f6a9-dd4a-4f72-abc7-d4f4d088fb60" />
 <img width="410" height="366" alt="sprint2_In-progress4" src="https://github.com/user-attachments/assets/5ecdc54f-e164-4b3c-9681-f7724838569c" />
 <img width="373" height="440" alt="Sprint2_Completed" src="https://github.com/user-attachments/assets/505833cc-fdc5-47e9-92db-92433127fa0e" />
 <img width="1628" height="930" alt="sprint2_burndown_final" src="https://github.com/user-attachments/assets/461bf3b1-41c2-4412-a658-fccbc6094491" />
