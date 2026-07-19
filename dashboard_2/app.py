@@ -122,17 +122,58 @@ def load_transactions(name: str) -> pd.DataFrame:
 
 
 def _prepare_df(df: pd.DataFrame) -> pd.DataFrame:
-    """Kontrata uygun hale getir: tarih/tutar tipleri, month kolonu."""
+    """Kontrata uygun hale getir: kolon eşleme, tarih/tutar tipleri, month kolonu.
+
+    Farklı kaynaklardan gelen dosyalarda kolon adları değişebildiği için
+    yaygın alternatifler otomatik eşlenir.
+    """
+    df = df.copy()
+    df.columns = [str(c).strip() for c in df.columns]
+
+    # Yaygın kolon adı alternatifleri → kontrat adı
+    aliases = {
+        "amount": ["amount", "standardized_amount", "tutar", "Amount", "TransactionAmount",
+                   "transaction_amount", "value", "miktar"],
+        "date": ["date", "Date", "tarih", "TransactionDate", "transaction_date", "islem_tarihi"],
+        "description": ["description", "Description", "aciklama", "açıklama", "merchant",
+                        "Transaction Description", "detay"],
+        "category": ["category", "Category", "kategori", "predicted_category"],
+        "currency": ["currency", "Currency", "para_birimi", "doviz"],
+        "transaction_type": ["transaction_type", "TransactionType", "type", "Type", "islem_tipi"],
+        "month": ["month", "Month", "ay"],
+    }
+    for target, options in aliases.items():
+        if target in df.columns:
+            continue
+        for opt in options:
+            if opt in df.columns:
+                df[target] = df[opt]
+                break
+
+    # Zorunlu kolon: amount
+    if "amount" not in df.columns:
+        return pd.DataFrame()
+
+    df["amount"] = pd.to_numeric(df["amount"], errors="coerce")
+
     if "date" in df.columns:
-        df["date"] = pd.to_datetime(df["date"], errors="coerce")
-    if "amount" in df.columns:
-        df["amount"] = pd.to_numeric(df["amount"], errors="coerce")
-    if "month" not in df.columns and "date" in df.columns:
+        df["date"] = pd.to_datetime(df["date"], errors="coerce", format="mixed")
+    else:
+        df["date"] = pd.NaT
+
+    if "month" not in df.columns or df["month"].isna().all():
         df["month"] = df["date"].dt.strftime("%Y-%m")
-    for col in ["category", "transaction_type", "description", "currency"]:
+
+    # Eksik metin kolonlarını doldur
+    for col, default in [("category", "Diğer"), ("description", "—"),
+                         ("currency", "—"), ("transaction_type", "debit")]:
         if col not in df.columns:
-            df[col] = "—"
-    return df
+            df[col] = default
+        else:
+            df[col] = df[col].fillna(default)
+
+    return df.dropna(subset=["amount"])
+
 
 
 def parse_uploaded(file) -> pd.DataFrame:
@@ -299,6 +340,19 @@ else:
 market = load_json("market_data.json")
 dash = load_json("dashboard_data.json")
 advice = load_json("ai_advice.json")
+
+# Veri geçerli mi kontrol et — bozuk/eksik dosyada çökme yerine açıklama göster
+if tx is None or tx.empty:
+    st.error("İşlem verisi okunamadı.")
+    st.markdown(
+        "**Olası sebepler:**\n\n"
+        "- `data/` klasöründeki dosya beklenen kolonları içermiyor "
+        "(en azından bir tutar kolonu gerekli: `amount`)\n"
+        "- Dosya boş ya da bozuk\n\n"
+        "**Beklenen kolonlar:** `date`, `description`, `amount`, `currency`, "
+        "`transaction_type`, `category`"
+    )
+    st.stop()
 
 # Kategori özetini aktif veriden hesapla (yüklenen dosya için de çalışsın)
 def build_category_df(df: pd.DataFrame) -> pd.DataFrame:
