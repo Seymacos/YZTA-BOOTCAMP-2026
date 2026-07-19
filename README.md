@@ -47,7 +47,7 @@ SmartFinance — Kişisel Finans & Yatırım Asistanı
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, yeşil item'lar story'leri temsil etmektedir.
 
 - **Daily Scrum**: [DailyScrumMeetingSS_Sprint1.docx](https://github.com/user-attachments/files/29663753/DailyScrumMeetingSS_Sprint1.docx)
 
@@ -94,3 +94,36 @@ Alınan kararlar:
   - Mock veri ile paralel çalışma yaklaşımı başarılı olmuş, ekip üyeleri birbirini beklemeden ilerleyebilmiştir; bu yöntem sonraki sprintlerde de sürdürülecektir.
   - Para birimi (USD/INR) karışıklığı geç fark edilmiş, farklı modüllerde farklı çözümler üretilmiştir. Sonraki sprintte ortak kararların daha erken alınması ve modüller arası tutarlılığın planlama aşamasında netleştirilmesi gerektiği görülmüştür.
   - Tahmin puanları gözden geçirilmeli; bazı işlerin (özellikle veri temizleme ve entegrasyon) tahmin edilenden daha fazla efor gerektirdiği fark edilmiştir.
+ 
+# Sprint 2
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, yeşil item'lar story'leri temsil etmektedir.
+
+- **Daily Scrum**: [DailyScrumMeetingSS_Sprint1.docx](https://github.com/user-attachments/files/29663753/DailyScrumMeetingSS_Sprint1.docx)
+
+
+- **Sprint board update**: Sprint board screenshotları:
+- - **Ürün Durumu**:
+- - **Sprint Review**: 
+Alınan kararlar:
+Sprint Review
+Alınan kararlar: Anomali tespiti ve bütçe hesaplama mantığı geliştirilmiş, ancak bu çıktıların ortak veri dosyasına (dashboard_data.json) yazılmadığı tespit edilmiştir. Geçici çözüm olarak hesaplamalar arayüz katmanında da yapılmış, kalıcı çözümün bir sonraki sprintte tek noktada birleştirilmesine karar verilmiştir.
+Veri kolon isimlerinde ekip içi tutarsızlık gözlenmiş (kontratta amount olarak belirlenen alanın farklı modüllerde farklı adlarla üretilmesi), arayüz tarafında esnek kolon eşleme ile çözülmüştür. Veri kontratının yeniden gözden geçirilmesi PBI olarak eklenmiştir.
+AI agent modülü canlı LLM bağlantısıyla (Gemini API) çalışır hale getirilmiş, API anahtarı bulunmadığında devreye giren yedek cevap mekanizması sayesinde demo güvenliği sağlanmıştır.
+Kullanıcı arayüzünde ekip içi referansların görünmesi sorunu tespit edilmiş, hem veri dosyası düzeltilmiş hem de arayüze kalıcı bir metin temizleme filtresi eklenmiştir.
+Yatırımcı modu özelliği ekip tarafından değerlendirilmiş, kapsam netleşmediği için Product Backlog'da bekletilmesine karar verilmiştir.
+Çıkan ürün canlı ortamda çalışır durumdadır; kullanıcı dosya yükleme, anomali tespiti, bütçe takibi ve doğal dil sorgu özellikleri test edilmiş, kritik bir problem görülmemiştir.
+- Sprint Review katılımcıları:  Yağmur Dedekoç, Şeyma Coştur , Ayşegül Kılıç, Fırat Karataşoğlu
+- **Sprint Retrospective:**
+- Mock veri ile paralel çalışma yaklaşımı bu sprintte de işe yaradı; modüller birbirini beklemeden geliştirildi
+- Sprint 2'de kıyasla işler sprint boyunca dengeli dağıldı
+Ekip üyeleri kendi modüllerini bitirdikten sonra entegrasyon için gereken bilgiyi (fonksiyon imzası, çıktı formatı) proaktif paylaştı
+ Sonraki sprint için kararlar alındı
+- Veri kontratı yeniden gözden geçirilecek ve her modülün çıktısı teslim öncesi kontrata göre doğrulanacak
+- Hesaplama mantıkları tek bir katmanda toplanacak, arayüz yalnızca gösterimden sorumlu olacak
+- Deploy ve depo erişim yetkileri sprint başında netleştirilecek
+- Kullanıcıya görünen tüm metinler teslim öncesi gözden geçirilecek
+
+  
