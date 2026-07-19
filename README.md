@@ -105,6 +105,8 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 
 - **Sprint board update**: Sprint board screenshotları:
+- <img width="1628" height="930" alt="sprint2_burndown_final" src="https://github.com/user-attachments/assets/461bf3b1-41c2-4412-a658-fccbc6094491" />
+
 - **Ürün Durumu**:
 - Ürün Canlı link ## 🚀 Canlı Demo https://yzta-bootcamp-2026.onrender.com
 <img width="960" height="507" alt="sprint2_ürünss3" src="https://github.com/user-attachments/assets/955c39e1-b423-416f-9521-bf08e172ce26" />
@@ -121,6 +123,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 <img width="957" height="483" alt="sprint2_ürünss11" src="https://github.com/user-attachments/assets/bb232c83-bbf2-4f08-8d84-bb5f0f46a228" />
 <img width="950" height="472" alt="sprint2_ürünss10" src="https://github.com/user-attachments/assets/f9ac5c35-9ec5-4551-9c6d-8a4ed9cee735" />
 <img width="960" height="335" alt="sprint2_ürünss14" src="https://github.com/user-attachments/assets/6286a5bf-2e9b-49c5-9d40-b9e42d9055df" />
+
 - **Sprint Review**: 
 Alınan kararlar:
 Anomali tespiti ve bütçe hesaplama mantığı geliştirilmiş, ancak bu çıktıların ortak veri dosyasına (dashboard_data.json) yazılmadığı tespit edilmiştir. Geçici çözüm olarak hesaplamalar arayüz katmanında da yapılmış, kalıcı çözümün bir sonraki sprintte tek noktada birleştirilmesine karar verilmiştir.
@@ -130,6 +133,7 @@ Kullanıcı arayüzünde ekip içi referansların görünmesi sorunu tespit edil
 Yatırımcı modu özelliği ekip tarafından değerlendirilmiş, kapsam netleşmediği için Product Backlog'da bekletilmesine karar verilmiştir.
 Çıkan ürün canlı ortamda çalışır durumdadır; kullanıcı dosya yükleme, anomali tespiti, bütçe takibi ve doğal dil sorgu özellikleri test edilmiş, kritik bir problem görülmemiştir.
 Sprint Review katılımcıları:  Yağmur Dedekoç, Şeyma Coştur , Ayşegül Kılıç, Fırat Karataşoğlu
+
 - **Sprint Retrospective:**
 - Mock veri ile paralel çalışma yaklaşımı bu sprintte de işe yaradı; modüller birbirini beklemeden geliştirildi
 - Sprint 2'de kıyasla işler sprint boyunca dengeli dağıldı
